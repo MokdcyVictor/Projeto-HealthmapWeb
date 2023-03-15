@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --main-color: #3173F3;
+    --text-color: white;
+    --second-color: #00266F;
+    --third-color: #2E4EF0;
+    --quarter-color:#D3D3D3;
+}
+
+*{
+ font-family: 'Poppins', sans-serif;
+}
+
+.bg-color{
+    background-color: var(--main-color);
+}
+.bg-color2{
+    background-color: var(--quarter-color);
+}
+.bg-color3{
+    background-color: var(--second-color);
+}
+.logo{
+    width: 300px;
+    height: 110px;
+}
+.phone{
+    width: 800px;
+}
+
+/* misc styling */
+
+ul li{
+    list-style-type: none;
+}
+.container{
+    max-width: 1200px;
+}
+.display-1{
+    letter-spacing: 1px;
+}
+.btn{
+    border: 2px solid var(--text-color);
+    border-radius: 1.5rem;
+    padding: 0.6rem 0;
+    width: 160px;
+}
+
+/* header */
+
+header{
+    height: 100vh;
+}
+.navbar-brand .fa{
+    font-size: 1.3rem;
+}
+.nav-icons p{
+    font-size: 1rem;
+    margin-right: 0.6rem;
+}
+.btn-header:hover{
+    background-color: var(--text-color);
+    color: var(--main-color) !important;
+}
+.phone-img{
+    width: 600px;
+}
+
+/* section  */
+
+.circle-icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #00266F;
+}
+
+.lh-lg{
+    line-height: 1.7 !important;
+}
+
+/* carousel  */
+
+.c-item{
+    height: 480px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* profile  */
+
+.profile-area{
+    padding: 80px 0;
+}
+.card{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+.card:hover .img2 img{
+    border-color: var(--third-color);
+    transition: .7s;
+}
+.main-text{
+    padding: 30px  0;
+    text-align: justify;
+}
+.main-text h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i{
+    font-size: 20px;
+    color: #00266F;
+    padding: 0 10px;
+}

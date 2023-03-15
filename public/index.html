@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./front/imagens/logo_sem_fundo.png"/>
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- style -->
+  <link rel="stylesheet" href="./front/css/index.css">
+  <title>HealthMap</title>
+</head>
+<body>
+  
+  <header class="pb-5 overflow-hidden bg-color">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-sm-6 text-lg-start">
+          <a href="#"><img class="logo" src="./front/imagens/logo_header-hm.png" alt=""></a>
+        </div>
+        
+        <div class="col-sm-6 d-none d-md-flex text-white align-items-center nav-icons justify-content-end">
+          <p class="fw-bold mb-0"> Disponivel para:</p>
+
+          <a href="#"><i class="fab fa-apple text-white px-2"></i></a>
+          <a href="#"><i class="fab fa-android text-white px-2"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 text-white text-center text-lg-start">
+          <h1 class="display-1 fw-normal mt-5">Bem vindo ao HealthMap</h1>
+          <p class="my-4 lead fs-5">Um aplicativo que busca reunir informações das Unidades Basicas de Saúde e Auxiliar os usuários na procura das mesmas </p>
+          <button class="btn fw-bold text-white mt-4 btn-header">Download</button>
+        </div>
+        <div class="col-lg-6 phone-img d-none d-lg-flex justify-content-end gx-0 mt-5">
+          <img class="phone" src="./front/imagens/Cellphone.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="sec-1" class="py-5 bg-color2">
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-md-4 text-center sec-1-item mb-5">
+          <span class="d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+            <i class="fa fa-bullseye fs-3"></i>
+          </span>
+          <p class="lead fw-bold">Objetivo 1</p>
+          <p class="fw-light mx-3 lh-lg">Apresentar a Localização das Unidades Básicas de Saúde</p>
+        </div>
+        <div class="col-md-4 text-center sec-1-item mb-5">
+          <span class="d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+            <i class="fa fa-bullseye fs-3"></i>
+          </span>
+          <p class="lead fw-bold">Objetivo 2</p>
+          <p class="fw-light mx-3 lh-lg">Exibir informações a respeito das UBS</p>
+        </div>
+        <div class="col-md-4 text-center sec-1-item mb-5">
+          <span class="d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+            <i class="fa fa-bullseye fs-3"></i>
+          </span>
+          <p class="lead fw-bold">Objetivo 3</p>
+          <p class="fw-light mx-3 lh-lg">Gerar rotas que levem o usuário de seu ponto de partida até o local escolhido</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sec-2" class="py-5">
+    <div class="container my-4">
+      <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="./front/imagens/img1.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+          <div class="carousel-item c-item">
+            <img src="./front/imagens/img2.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+          <div class="carousel-item c-item">
+            <img src="./front/imagens/img3.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="bg-color3">
+    <div class="profile-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="img1"><img src="./front/imagens/fundo3.jpg" alt=""></div>
+              <div class="img2"><img src="./front/imagens/emilly_pimentel.png" alt=""></div>
+              <div class="main-text">
+                <h2>Emilly Pimentel</h2>
+                <p>Emilly Pimentel é a Analista do Projeto. Aluna da turma I3A, ela é responsável por gerenciar e produzir toda a documentação para a estruturação do TCC</p>
+              </div>
+              <div class="socials">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="img1"><img src="./front/imagens/fundo2.jpg" alt=""></div>
+              <div class="img2"><img src="./front/imagens/joao.jpg" alt=""></div>
+              <div class="main-text">
+                <h2>João Mokdcy</h2>
+                <p>João Mokdcy é o Programador do Software. Aluno da Turma I3B, ele quem cuida da codificação e desenvolvimento de todo o projeto</p>
+              </div>
+              <div class="socials">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="img1"><img src="./front/imagens/fundo1.jpg" alt=""></div>
+              <div class="img2"><img src="./front/imagens/carlos_eduardo.png" alt=""></div>
+              <div class="main-text">
+                <h2>Carlos Eduardo</h2>
+                <p>Carlos Eduardo é o Designer do Projeto. Aluno da turma I3C, Carlos fez a prototipação do Software e atualmente cuida das redes sociais junto de Emilly</p>
+              </div>
+              <div class="socials">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-color4 text-dark pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-info">Sobre nós</h5>
+          <hr class="mb-4 ">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet enim debitis amet eius. Similique accusamus voluptates eaque nam nisi excepturi tenetur, ut optio, tempora beatae quo? Perspiciatis porro quam ea.</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-info">Contato</h5>
+          <hr class="mb-4">
+          <p>
+            <li class="fas fa-home mr-3"></li>Manaus AM, BR
+          </p>
+          <p>
+            <li class="fas fa-envelope mr-3"></li>ubsprojetoi3b@gmail.com
+          </p>
+        </div>
+        <hr class="mb-4">
+        <div class="row d-flex justify-content-center">
+          <p>
+            Copyright 2023 All Rights Reserved By:
+            <strong class="text-info">Healthmap</strong>
+          </p>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="text-center">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href=""><i class="fa fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
